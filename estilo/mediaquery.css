@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+@media screen and (max-width:600px) { /*pequenas telas*/
+    main{
+        font-size: 0.7em;
+        width: 100vw;
+        height: 100%;
+        border-radius: 0px;
+        margin: -13.5px -10px;
+        box-shadow: 0px 0px 0px 0px;
+    }
+    h1{
+        position: relative;
+        left: -30px;
+    }
+    div.quadrado{
+        font-size: 0.6em;
+        width: 15px;
+        height: 13px;
+        left: 130px;
+        top: 13px;
+    }
+    div.msg{
+        font-size: 1.0em;
+        top: -13px;
+        left: 30%;
+    }
+    div.especial{
+        top: -30px;
+        width: 87vw;
+        height: 84px;
+        left: -35px;
+    }
+    div.time{
+        font-size: 0.9em;
+        position: relative;
+        top: 5px;
+    }
+    div.coment{
+        position: relative;
+        left: -35px;
+    }
+    div.mensagem{
+        width: 90px;
+        height: 100px;
+        position: relative;
+        top: -5px;
+        font-size: 0.8em;
+    }
+    div.feed{
+        margin-left: 35px;
+    }
+    #e4{
+        width: 90%;
+        top: -20px;
+        left: -40px;
+    }  
+    #e5,#e6,#e7{
+        top: -50px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:768px) { /*celular*/
+    *{
+        margin: 0px;
+    }
+    main{
+        width:90vw;
+        border-radius:0px;
+        box-shadow: 0px 0px 0px 0px;
+        margin-top: 30px;
+    }
+    div.especial{
+        position: relative;
+        top: -20px;
+        padding: 10px;
+    }div.quadrado{
+        left: 210px;
+        top: 20px;
+    }
+    div.msg{
+        top: 1px;
+    }
+    div.time{
+       position: relative;
+       top: 15px;
+       font-size: 0.9em;
+    }
+    div.mensagem{
+        position: relative;
+        top: 10px;
+        padding: 5px;
+        font-size: 0.8em;
+    }
+    div.feed{
+        top: -34px;
+    }
+    #e4{
+        top: -25px;
+    }
+    #e5{
+        top: -55px;
+    }
+    #e6 > .time{
+        position: relative;
+        top: 29px;
+    }
+    #e6{
+        top: -60px;
+    }
+    #e7{
+        position: relative;
+        top: -40px;
+    }
+}
+
+@media screen  and (min-width:768px) and (max-width:992px){ /*Tablet*/
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    main{
+        width: 90vw;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    div.quadrado{
+        position: relative;
+        top: 20px;
+        left: 210px;
+    }
+    div.msg{
+        margin-top: 35px;
+    }
+    div.especial{
+        position: relative;
+        top: -50px;
+        left: -20px;
+        height: 70px;
+    }
+    div.coment{
+        position: relative;
+        left: -20px
+    }
+    div.time{
+        position: relative;
+        top: 12px;
+    }
+    div.mensagem{
+        top: 10px;
+        padding: 10px;
+    }
+    div.feed{
+        position: relative;
+        top: -40px;
+    }
+    #e4{
+        top: -50px;
+    }
+    #e5{
+        top: -90px;
+    }
+    #e5 > .time{
+        position: relative;
+        top: 17px;
+    }
+    #e6{
+        top: -90px;
+    }
+    #e6 > .time{
+        position: relative;
+        top: 30px;
+    }
+    #e7{
+        top: -80px;
+    }
+    
+} 
+@media screen and (min-width:992px) and (max-width:1200px){ /*Desktop*/
+    main{
+        width: 77%;
+    }
+    div.quadrado{
+        left: 210px;
+    }
+}
